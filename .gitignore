@@ -1,0 +1,199 @@
+# ============================================================================
+# Production-Ready .gitignore for sales-call-center-backend
+# Generated for secure version control and DevOps best practices
+# ============================================================================
+
+# ============================================================================
+# DEPENDENCIES
+# ============================================================================
+node_modules/
+jspm_packages/
+web_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+.pnpm-store/
+
+# ============================================================================
+# PRODUCTION BUILDS & COMPILED OUTPUT
+# ============================================================================
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+.next/
+.nuxt/
+.cache/
+.vuepress/dist/
+
+# ============================================================================
+# ENVIRONMENT VARIABLES & SECURITY CREDENTIALS
+# ============================================================================
+# CRITICAL: Never commit files containing sensitive credentials
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.staging.local
+
+# Private/Public Keys and Certificates
+*.pem
+*.key
+*.crt
+*.cer
+*.pfx
+*.p12
+*.jks
+
+# AWS & Cloud Provider Credentials
+.aws/
+.gcloud/
+google-cloud-key.json
+credentials.json
+
+# ============================================================================
+# LOG FILES & DEBUG REPORTS
+# ============================================================================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.pnpm-debug.log*
+*.log
+debug.log
+node-debug.log*
+npm-debug.log.*.json
+
+# ============================================================================
+# OPERATING SYSTEM FILES
+# ============================================================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.directory
+
+# ============================================================================
+# IDEs & EDITOR WORKSPACES
+# ============================================================================
+# Visual Studio Code
+.vscode/
+.vscode-test/
+.history/
+*.vsix
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+.idea_modules/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Vim & Vi
+*.swp
+*.swo
+*~
+.vim/
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Jetbrains IDEs
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Visual Studio
+.vs/
+bin/
+obj/
+
+# ============================================================================
+# TESTING & QUALITY ASSURANCE
+# ============================================================================
+.nyc_output/
+.mocha/
+test-results/
+junit.xml
+coverage-report/
+
+# ============================================================================
+# TEMPORARY & SYSTEM FILES
+# ============================================================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+*.swo
+.tmp/
+dist-tmp/
+
+# OS-specific temporary files
+.env.swp
+.DS_Store
+
+# ============================================================================
+# PACKAGE MANAGER CACHE
+# ============================================================================
+.npm/
+.eslintcache
+.stylelintcache
+.eslintignore
+
+# ============================================================================
+# LOCAL DEVELOPMENT ONLY
+# ============================================================================
+.env.development
+local-data/
+*.local.js
+*.local.ts
+
+# ============================================================================
+# DOCKER & CONTAINER FILES (if applicable)
+# ============================================================================
+.dockerignore
+docker-compose.override.yml
+.docker/
+
+# ============================================================================
+# CI/CD & DEPLOYMENT
+# ============================================================================
+.github/workflows/local/
+.gitlab-ci.local.yml
+.circleci/local/
+
+# ============================================================================
+# NOTES & DOCUMENTATION (Local Development Only)
+# ============================================================================
+NOTES.md
+TODO.md
+*.draft.md
+.notes/
+
+# ============================================================================
+# END OF .gitignore
+# ============================================================================
